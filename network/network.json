@@ -1,0 +1,156 @@
+{
+  "caliper": {
+    "blockchain": "ethereum"
+  },
+  "ethereum": {
+    "url": "",
+    "network_id": 1131976,
+    "contractDeployerAddress": "",
+    "contractDeployerAddressPrivateKey": "",
+    "fromAddress": "",
+    "fromAddressPrivateKey": "",
+    "transactionConfirmationBlocks": 5,
+    "contracts": {
+      "I0": {
+        "path": "network/contract.json",
+        "estimateGas": true,
+        "gas": {
+          "addStudent": 300000,
+          "addCourseReports": 300000,
+          "addInternshipExperience": 300000,
+          "addProject": 300000,
+          "setStudent": 300000,
+          "setCourseReports": 300000,
+          "setInternshipExperience": 300000,
+          "setProject": 300000
+        }
+      },
+      "I1": {
+        "path": "network/contract.json",
+        "estimateGas": true,
+        "gas": {
+          "addStudent": 300000,
+          "addCourseReports": 300000,
+          "addInternshipExperience": 300000,
+          "addProject": 300000,
+          "setStudent": 300000,
+          "setCourseReports": 300000,
+          "setInternshipExperience": 300000,
+          "setProject": 300000
+        }
+      },
+      "I2": {
+        "path": "network/contract.json",
+        "estimateGas": true,
+        "gas": {
+          "addStudent": 300000,
+          "addCourseReports": 300000,
+          "addInternshipExperience": 300000,
+          "addProject": 300000,
+          "setStudent": 300000,
+          "setCourseReports": 300000,
+          "setInternshipExperience": 300000,
+          "setProject": 300000
+        }
+      },
+      "I3": {
+        "path": "network/contract.json",
+        "estimateGas": true,
+        "gas": {
+          "addStudent": 300000,
+          "addCourseReports": 300000,
+          "addInternshipExperience": 300000,
+          "addProject": 300000,
+          "setStudent": 300000,
+          "setCourseReports": 300000,
+          "setInternshipExperience": 300000,
+          "setProject": 300000
+        }
+      },
+      "I4": {
+        "path": "network/contract.json",
+        "estimateGas": true,
+        "gas": {
+          "addStudent": 300000,
+          "addCourseReports": 300000,
+          "addInternshipExperience": 300000,
+          "addProject": 300000,
+          "setStudent": 300000,
+          "setCourseReports": 300000,
+          "setInternshipExperience": 300000,
+          "setProject": 300000
+        }
+      },
+      "I5": {
+        "path": "network/contract.json",
+        "estimateGas": true,
+        "gas": {
+          "addStudent": 300000,
+          "addCourseReports": 300000,
+          "addInternshipExperience": 300000,
+          "addProject": 300000,
+          "setStudent": 300000,
+          "setCourseReports": 300000,
+          "setInternshipExperience": 300000,
+          "setProject": 300000
+        }
+      },
+      "I6": {
+        "path": "network/contract.json",
+        "estimateGas": true,
+        "gas": {
+          "addStudent": 300000,
+          "addCourseReports": 300000,
+          "addInternshipExperience": 300000,
+          "addProject": 300000,
+          "setStudent": 300000,
+          "setCourseReports": 300000,
+          "setInternshipExperience": 300000,
+          "setProject": 300000
+        }
+      },
+      "I7": {
+        "path": "network/contract.json",
+        "estimateGas": true,
+        "gas": {
+          "addStudent": 300000,
+          "addCourseReports": 300000,
+          "addInternshipExperience": 300000,
+          "addProject": 300000,
+          "setStudent": 300000,
+          "setCourseReports": 300000,
+          "setInternshipExperience": 300000,
+          "setProject": 300000
+        }
+      },
+      "I8": {
+        "path": "network/contract.json",
+        "estimateGas": true,
+        "gas": {
+          "addStudent": 300000,
+          "addCourseReports": 300000,
+          "addInternshipExperience": 300000,
+          "addProject": 300000,
+          "setStudent": 300000,
+          "setCourseReports": 300000,
+          "setInternshipExperience": 300000,
+          "setProject": 300000
+        }
+      },
+      "I9": {
+        "path": "network/contract.json",
+        "estimateGas": true,
+        "gas": {
+          "addStudent": 300000,
+          "addCourseReports": 300000,
+          "addInternshipExperience": 300000,
+          "addProject": 300000,
+          "setStudent": 300000,
+          "setCourseReports": 300000,
+          "setInternshipExperience": 300000,
+          "setProject": 300000
+        }
+      }
+    }
+  }
+}

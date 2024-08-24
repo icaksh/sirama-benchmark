@@ -1,0 +1,8 @@
+node_modules
+workload-module/dataStudent/*
+workload-module/dataStudent-pt/*
+workload-module/dataStudent-st/*
+workload-module/dataStudent-storage/*
+reports/*
+reports/*
+network/contract.json
