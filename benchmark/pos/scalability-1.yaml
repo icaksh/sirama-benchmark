@@ -1,0 +1,5605 @@
+test:
+  name: Sirama Network Performance Benchmark (Proof of Stake - Ethereum 2.0)
+  description: Sirama Network Performance Benchmark (Proof of Stake - Ethereum 2.0) for thesis project (PP2712801) at Sebelas Maret University by Palguno Wicaksono <hello@icaksh.my.id>
+  workers:
+    type: local
+    number: 1
+  rounds:
+
+    - label: addStudent (100 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 100 data (I0)
+      txNumber: 100
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I0
+          pt: false
+
+
+    - label: addStudent (100 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 100 data (I1)
+      txNumber: 100
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I1
+          pt: false
+
+
+    - label: addStudent (100 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 100 data (I2)
+      txNumber: 100
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I2
+          pt: false
+
+
+    - label: addStudent (100 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 100 data (I3)
+      txNumber: 100
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I3
+          pt: false
+
+
+    - label: addStudent (100 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 100 data (I4)
+      txNumber: 100
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I4
+          pt: false
+
+
+    - label: addStudent (100 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 100 data (I5)
+      txNumber: 100
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I5
+          pt: false
+
+
+    - label: addStudent (100 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 100 data (I6)
+      txNumber: 100
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I6
+          pt: false
+
+
+    - label: addStudent (100 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 100 data (I7)
+      txNumber: 100
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I7
+          pt: false
+
+
+    - label: addStudent (100 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 100 data (I8)
+      txNumber: 100
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I8
+          pt: false
+
+
+    - label: addStudent (100 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 100 data (I9)
+      txNumber: 100
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I9
+          pt: false
+
+
+    - label: addStudent (200 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 200 data (I0)
+      txNumber: 200
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I0
+          pt: false
+
+
+    - label: addStudent (200 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 200 data (I1)
+      txNumber: 200
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I1
+          pt: false
+
+
+    - label: addStudent (200 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 200 data (I2)
+      txNumber: 200
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I2
+          pt: false
+
+
+    - label: addStudent (200 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 200 data (I3)
+      txNumber: 200
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I3
+          pt: false
+
+
+    - label: addStudent (200 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 200 data (I4)
+      txNumber: 200
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I4
+          pt: false
+
+
+    - label: addStudent (200 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 200 data (I5)
+      txNumber: 200
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I5
+          pt: false
+
+
+    - label: addStudent (200 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 200 data (I6)
+      txNumber: 200
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I6
+          pt: false
+
+
+    - label: addStudent (200 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 200 data (I7)
+      txNumber: 200
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I7
+          pt: false
+
+
+    - label: addStudent (200 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 200 data (I8)
+      txNumber: 200
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I8
+          pt: false
+
+
+    - label: addStudent (200 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 200 data (I9)
+      txNumber: 200
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I9
+          pt: false
+
+
+    - label: addStudent (300 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 300 data (I0)
+      txNumber: 300
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I0
+          pt: false
+
+
+    - label: addStudent (300 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 300 data (I1)
+      txNumber: 300
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I1
+          pt: false
+
+
+    - label: addStudent (300 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 300 data (I2)
+      txNumber: 300
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I2
+          pt: false
+
+
+    - label: addStudent (300 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 300 data (I3)
+      txNumber: 300
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I3
+          pt: false
+
+
+    - label: addStudent (300 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 300 data (I4)
+      txNumber: 300
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I4
+          pt: false
+
+
+    - label: addStudent (300 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 300 data (I5)
+      txNumber: 300
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I5
+          pt: false
+
+
+    - label: addStudent (300 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 300 data (I6)
+      txNumber: 300
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I6
+          pt: false
+
+
+    - label: addStudent (300 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 300 data (I7)
+      txNumber: 300
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I7
+          pt: false
+
+
+    - label: addStudent (300 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 300 data (I8)
+      txNumber: 300
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I8
+          pt: false
+
+
+    - label: addStudent (300 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 300 data (I9)
+      txNumber: 300
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I9
+          pt: false
+
+
+    - label: addStudent (400 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 400 data (I0)
+      txNumber: 400
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I0
+          pt: false
+
+
+    - label: addStudent (400 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 400 data (I1)
+      txNumber: 400
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I1
+          pt: false
+
+
+    - label: addStudent (400 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 400 data (I2)
+      txNumber: 400
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I2
+          pt: false
+
+
+    - label: addStudent (400 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 400 data (I3)
+      txNumber: 400
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I3
+          pt: false
+
+
+    - label: addStudent (400 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 400 data (I4)
+      txNumber: 400
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I4
+          pt: false
+
+
+    - label: addStudent (400 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 400 data (I5)
+      txNumber: 400
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I5
+          pt: false
+
+
+    - label: addStudent (400 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 400 data (I6)
+      txNumber: 400
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I6
+          pt: false
+
+
+    - label: addStudent (400 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 400 data (I7)
+      txNumber: 400
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I7
+          pt: false
+
+
+    - label: addStudent (400 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 400 data (I8)
+      txNumber: 400
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I8
+          pt: false
+
+
+    - label: addStudent (400 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 400 data (I9)
+      txNumber: 400
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I9
+          pt: false
+
+
+    - label: addStudent (500 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 500 data (I0)
+      txNumber: 500
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I0
+          pt: false
+
+
+    - label: addStudent (500 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 500 data (I1)
+      txNumber: 500
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I1
+          pt: false
+
+
+    - label: addStudent (500 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 500 data (I2)
+      txNumber: 500
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I2
+          pt: false
+
+
+    - label: addStudent (500 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 500 data (I3)
+      txNumber: 500
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I3
+          pt: false
+
+
+    - label: addStudent (500 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 500 data (I4)
+      txNumber: 500
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I4
+          pt: false
+
+
+    - label: addStudent (500 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 500 data (I5)
+      txNumber: 500
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I5
+          pt: false
+
+
+    - label: addStudent (500 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 500 data (I6)
+      txNumber: 500
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I6
+          pt: false
+
+
+    - label: addStudent (500 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 500 data (I7)
+      txNumber: 500
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I7
+          pt: false
+
+
+    - label: addStudent (500 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 500 data (I8)
+      txNumber: 500
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I8
+          pt: false
+
+
+    - label: addStudent (500 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 500 data (I9)
+      txNumber: 500
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I9
+          pt: false
+
+
+    - label: addStudent (600 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 600 data (I0)
+      txNumber: 600
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I0
+          pt: false
+
+
+    - label: addStudent (600 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 600 data (I1)
+      txNumber: 600
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I1
+          pt: false
+
+
+    - label: addStudent (600 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 600 data (I2)
+      txNumber: 600
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I2
+          pt: false
+
+
+    - label: addStudent (600 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 600 data (I3)
+      txNumber: 600
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I3
+          pt: false
+
+
+    - label: addStudent (600 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 600 data (I4)
+      txNumber: 600
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I4
+          pt: false
+
+
+    - label: addStudent (600 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 600 data (I5)
+      txNumber: 600
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I5
+          pt: false
+
+
+    - label: addStudent (600 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 600 data (I6)
+      txNumber: 600
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I6
+          pt: false
+
+
+    - label: addStudent (600 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 600 data (I7)
+      txNumber: 600
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I7
+          pt: false
+
+
+    - label: addStudent (600 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 600 data (I8)
+      txNumber: 600
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I8
+          pt: false
+
+
+    - label: addStudent (600 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 600 data (I9)
+      txNumber: 600
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I9
+          pt: false
+
+
+    - label: addStudent (700 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 700 data (I0)
+      txNumber: 700
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I0
+          pt: false
+
+
+    - label: addStudent (700 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 700 data (I1)
+      txNumber: 700
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I1
+          pt: false
+
+
+    - label: addStudent (700 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 700 data (I2)
+      txNumber: 700
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I2
+          pt: false
+
+
+    - label: addStudent (700 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 700 data (I3)
+      txNumber: 700
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I3
+          pt: false
+
+
+    - label: addStudent (700 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 700 data (I4)
+      txNumber: 700
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I4
+          pt: false
+
+
+    - label: addStudent (700 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 700 data (I5)
+      txNumber: 700
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I5
+          pt: false
+
+
+    - label: addStudent (700 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 700 data (I6)
+      txNumber: 700
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I6
+          pt: false
+
+
+    - label: addStudent (700 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 700 data (I7)
+      txNumber: 700
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I7
+          pt: false
+
+
+    - label: addStudent (700 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 700 data (I8)
+      txNumber: 700
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I8
+          pt: false
+
+
+    - label: addStudent (700 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 700 data (I9)
+      txNumber: 700
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I9
+          pt: false
+
+
+    - label: addStudent (800 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 800 data (I0)
+      txNumber: 800
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I0
+          pt: false
+
+
+    - label: addStudent (800 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 800 data (I1)
+      txNumber: 800
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I1
+          pt: false
+
+
+    - label: addStudent (800 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 800 data (I2)
+      txNumber: 800
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I2
+          pt: false
+
+
+    - label: addStudent (800 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 800 data (I3)
+      txNumber: 800
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I3
+          pt: false
+
+
+    - label: addStudent (800 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 800 data (I4)
+      txNumber: 800
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I4
+          pt: false
+
+
+    - label: addStudent (800 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 800 data (I5)
+      txNumber: 800
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I5
+          pt: false
+
+
+    - label: addStudent (800 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 800 data (I6)
+      txNumber: 800
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I6
+          pt: false
+
+
+    - label: addStudent (800 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 800 data (I7)
+      txNumber: 800
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I7
+          pt: false
+
+
+    - label: addStudent (800 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 800 data (I8)
+      txNumber: 800
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I8
+          pt: false
+
+
+    - label: addStudent (800 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 800 data (I9)
+      txNumber: 800
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I9
+          pt: false
+
+
+    - label: addStudent (900 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 900 data (I0)
+      txNumber: 900
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I0
+          pt: false
+
+
+    - label: addStudent (900 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 900 data (I1)
+      txNumber: 900
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I1
+          pt: false
+
+
+    - label: addStudent (900 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 900 data (I2)
+      txNumber: 900
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I2
+          pt: false
+
+
+    - label: addStudent (900 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 900 data (I3)
+      txNumber: 900
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I3
+          pt: false
+
+
+    - label: addStudent (900 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 900 data (I4)
+      txNumber: 900
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I4
+          pt: false
+
+
+    - label: addStudent (900 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 900 data (I5)
+      txNumber: 900
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I5
+          pt: false
+
+
+    - label: addStudent (900 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 900 data (I6)
+      txNumber: 900
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I6
+          pt: false
+
+
+    - label: addStudent (900 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 900 data (I7)
+      txNumber: 900
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I7
+          pt: false
+
+
+    - label: addStudent (900 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 900 data (I8)
+      txNumber: 900
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I8
+          pt: false
+
+
+    - label: addStudent (900 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 900 data (I9)
+      txNumber: 900
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I9
+          pt: false
+
+
+    - label: addStudent (1000 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 1000 data (I0)
+      txNumber: 1000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I0
+          pt: false
+
+
+    - label: addStudent (1000 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 1000 data (I1)
+      txNumber: 1000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I1
+          pt: false
+
+
+    - label: addStudent (1000 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 1000 data (I2)
+      txNumber: 1000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I2
+          pt: false
+
+
+    - label: addStudent (1000 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 1000 data (I3)
+      txNumber: 1000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I3
+          pt: false
+
+
+    - label: addStudent (1000 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 1000 data (I4)
+      txNumber: 1000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I4
+          pt: false
+
+
+    - label: addStudent (1000 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 1000 data (I5)
+      txNumber: 1000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I5
+          pt: false
+
+
+    - label: addStudent (1000 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 1000 data (I6)
+      txNumber: 1000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I6
+          pt: false
+
+
+    - label: addStudent (1000 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 1000 data (I7)
+      txNumber: 1000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I7
+          pt: false
+
+
+    - label: addStudent (1000 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 1000 data (I8)
+      txNumber: 1000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I8
+          pt: false
+
+
+    - label: addStudent (1000 Trx)
+      description: Tambah data mahasiswa (addStudent) sebanyak 1000 data (I9)
+      txNumber: 1000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addStudent.js
+        arguments:
+          contract: I9
+          pt: false
+
+
+    - label: addCourseReport (100 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 100 data (I0)
+      txNumber: 100
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I0
+          pt: false
+
+
+    - label: addCourseReport (100 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 100 data (I1)
+      txNumber: 100
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I1
+          pt: false
+
+
+    - label: addCourseReport (100 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 100 data (I2)
+      txNumber: 100
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I2
+          pt: false
+
+
+    - label: addCourseReport (100 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 100 data (I3)
+      txNumber: 100
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I3
+          pt: false
+
+
+    - label: addCourseReport (100 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 100 data (I4)
+      txNumber: 100
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I4
+          pt: false
+
+
+    - label: addCourseReport (100 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 100 data (I5)
+      txNumber: 100
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I5
+          pt: false
+
+
+    - label: addCourseReport (100 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 100 data (I6)
+      txNumber: 100
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I6
+          pt: false
+
+
+    - label: addCourseReport (100 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 100 data (I7)
+      txNumber: 100
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I7
+          pt: false
+
+
+    - label: addCourseReport (100 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 100 data (I8)
+      txNumber: 100
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I8
+          pt: false
+
+
+    - label: addCourseReport (100 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 100 data (I9)
+      txNumber: 100
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I9
+          pt: false
+
+
+    - label: addCourseReport (200 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 200 data (I0)
+      txNumber: 200
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I0
+          pt: false
+
+
+    - label: addCourseReport (200 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 200 data (I1)
+      txNumber: 200
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I1
+          pt: false
+
+
+    - label: addCourseReport (200 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 200 data (I2)
+      txNumber: 200
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I2
+          pt: false
+
+
+    - label: addCourseReport (200 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 200 data (I3)
+      txNumber: 200
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I3
+          pt: false
+
+
+    - label: addCourseReport (200 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 200 data (I4)
+      txNumber: 200
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I4
+          pt: false
+
+
+    - label: addCourseReport (200 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 200 data (I5)
+      txNumber: 200
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I5
+          pt: false
+
+
+    - label: addCourseReport (200 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 200 data (I6)
+      txNumber: 200
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I6
+          pt: false
+
+
+    - label: addCourseReport (200 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 200 data (I7)
+      txNumber: 200
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I7
+          pt: false
+
+
+    - label: addCourseReport (200 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 200 data (I8)
+      txNumber: 200
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I8
+          pt: false
+
+
+    - label: addCourseReport (200 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 200 data (I9)
+      txNumber: 200
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I9
+          pt: false
+
+
+    - label: addCourseReport (300 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 300 data (I0)
+      txNumber: 300
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I0
+          pt: false
+
+
+    - label: addCourseReport (300 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 300 data (I1)
+      txNumber: 300
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I1
+          pt: false
+
+
+    - label: addCourseReport (300 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 300 data (I2)
+      txNumber: 300
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I2
+          pt: false
+
+
+    - label: addCourseReport (300 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 300 data (I3)
+      txNumber: 300
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I3
+          pt: false
+
+
+    - label: addCourseReport (300 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 300 data (I4)
+      txNumber: 300
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I4
+          pt: false
+
+
+    - label: addCourseReport (300 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 300 data (I5)
+      txNumber: 300
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I5
+          pt: false
+
+
+    - label: addCourseReport (300 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 300 data (I6)
+      txNumber: 300
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I6
+          pt: false
+
+
+    - label: addCourseReport (300 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 300 data (I7)
+      txNumber: 300
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I7
+          pt: false
+
+
+    - label: addCourseReport (300 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 300 data (I8)
+      txNumber: 300
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I8
+          pt: false
+
+
+    - label: addCourseReport (300 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 300 data (I9)
+      txNumber: 300
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I9
+          pt: false
+
+
+    - label: addCourseReport (400 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 400 data (I0)
+      txNumber: 400
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I0
+          pt: false
+
+
+    - label: addCourseReport (400 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 400 data (I1)
+      txNumber: 400
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I1
+          pt: false
+
+
+    - label: addCourseReport (400 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 400 data (I2)
+      txNumber: 400
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I2
+          pt: false
+
+
+    - label: addCourseReport (400 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 400 data (I3)
+      txNumber: 400
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I3
+          pt: false
+
+
+    - label: addCourseReport (400 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 400 data (I4)
+      txNumber: 400
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I4
+          pt: false
+
+
+    - label: addCourseReport (400 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 400 data (I5)
+      txNumber: 400
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I5
+          pt: false
+
+
+    - label: addCourseReport (400 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 400 data (I6)
+      txNumber: 400
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I6
+          pt: false
+
+
+    - label: addCourseReport (400 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 400 data (I7)
+      txNumber: 400
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I7
+          pt: false
+
+
+    - label: addCourseReport (400 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 400 data (I8)
+      txNumber: 400
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I8
+          pt: false
+
+
+    - label: addCourseReport (400 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 400 data (I9)
+      txNumber: 400
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I9
+          pt: false
+
+
+    - label: addCourseReport (500 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 500 data (I0)
+      txNumber: 500
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I0
+          pt: false
+
+
+    - label: addCourseReport (500 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 500 data (I1)
+      txNumber: 500
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I1
+          pt: false
+
+
+    - label: addCourseReport (500 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 500 data (I2)
+      txNumber: 500
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I2
+          pt: false
+
+
+    - label: addCourseReport (500 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 500 data (I3)
+      txNumber: 500
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I3
+          pt: false
+
+
+    - label: addCourseReport (500 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 500 data (I4)
+      txNumber: 500
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I4
+          pt: false
+
+
+    - label: addCourseReport (500 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 500 data (I5)
+      txNumber: 500
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I5
+          pt: false
+
+
+    - label: addCourseReport (500 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 500 data (I6)
+      txNumber: 500
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I6
+          pt: false
+
+
+    - label: addCourseReport (500 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 500 data (I7)
+      txNumber: 500
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I7
+          pt: false
+
+
+    - label: addCourseReport (500 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 500 data (I8)
+      txNumber: 500
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I8
+          pt: false
+
+
+    - label: addCourseReport (500 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 500 data (I9)
+      txNumber: 500
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I9
+          pt: false
+
+
+    - label: addCourseReport (600 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 600 data (I0)
+      txNumber: 600
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I0
+          pt: false
+
+
+    - label: addCourseReport (600 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 600 data (I1)
+      txNumber: 600
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I1
+          pt: false
+
+
+    - label: addCourseReport (600 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 600 data (I2)
+      txNumber: 600
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I2
+          pt: false
+
+
+    - label: addCourseReport (600 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 600 data (I3)
+      txNumber: 600
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I3
+          pt: false
+
+
+    - label: addCourseReport (600 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 600 data (I4)
+      txNumber: 600
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I4
+          pt: false
+
+
+    - label: addCourseReport (600 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 600 data (I5)
+      txNumber: 600
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I5
+          pt: false
+
+
+    - label: addCourseReport (600 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 600 data (I6)
+      txNumber: 600
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I6
+          pt: false
+
+
+    - label: addCourseReport (600 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 600 data (I7)
+      txNumber: 600
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I7
+          pt: false
+
+
+    - label: addCourseReport (600 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 600 data (I8)
+      txNumber: 600
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I8
+          pt: false
+
+
+    - label: addCourseReport (600 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 600 data (I9)
+      txNumber: 600
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I9
+          pt: false
+
+
+    - label: addCourseReport (700 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 700 data (I0)
+      txNumber: 700
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I0
+          pt: false
+
+
+    - label: addCourseReport (700 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 700 data (I1)
+      txNumber: 700
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I1
+          pt: false
+
+
+    - label: addCourseReport (700 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 700 data (I2)
+      txNumber: 700
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I2
+          pt: false
+
+
+    - label: addCourseReport (700 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 700 data (I3)
+      txNumber: 700
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I3
+          pt: false
+
+
+    - label: addCourseReport (700 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 700 data (I4)
+      txNumber: 700
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I4
+          pt: false
+
+
+    - label: addCourseReport (700 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 700 data (I5)
+      txNumber: 700
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I5
+          pt: false
+
+
+    - label: addCourseReport (700 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 700 data (I6)
+      txNumber: 700
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I6
+          pt: false
+
+
+    - label: addCourseReport (700 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 700 data (I7)
+      txNumber: 700
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I7
+          pt: false
+
+
+    - label: addCourseReport (700 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 700 data (I8)
+      txNumber: 700
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I8
+          pt: false
+
+
+    - label: addCourseReport (700 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 700 data (I9)
+      txNumber: 700
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I9
+          pt: false
+
+
+    - label: addCourseReport (800 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 800 data (I0)
+      txNumber: 800
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I0
+          pt: false
+
+
+    - label: addCourseReport (800 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 800 data (I1)
+      txNumber: 800
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I1
+          pt: false
+
+
+    - label: addCourseReport (800 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 800 data (I2)
+      txNumber: 800
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I2
+          pt: false
+
+
+    - label: addCourseReport (800 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 800 data (I3)
+      txNumber: 800
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I3
+          pt: false
+
+
+    - label: addCourseReport (800 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 800 data (I4)
+      txNumber: 800
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I4
+          pt: false
+
+
+    - label: addCourseReport (800 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 800 data (I5)
+      txNumber: 800
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I5
+          pt: false
+
+
+    - label: addCourseReport (800 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 800 data (I6)
+      txNumber: 800
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I6
+          pt: false
+
+
+    - label: addCourseReport (800 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 800 data (I7)
+      txNumber: 800
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I7
+          pt: false
+
+
+    - label: addCourseReport (800 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 800 data (I8)
+      txNumber: 800
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I8
+          pt: false
+
+
+    - label: addCourseReport (800 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 800 data (I9)
+      txNumber: 800
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I9
+          pt: false
+
+
+    - label: addCourseReport (900 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 900 data (I0)
+      txNumber: 900
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I0
+          pt: false
+
+
+    - label: addCourseReport (900 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 900 data (I1)
+      txNumber: 900
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I1
+          pt: false
+
+
+    - label: addCourseReport (900 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 900 data (I2)
+      txNumber: 900
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I2
+          pt: false
+
+
+    - label: addCourseReport (900 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 900 data (I3)
+      txNumber: 900
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I3
+          pt: false
+
+
+    - label: addCourseReport (900 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 900 data (I4)
+      txNumber: 900
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I4
+          pt: false
+
+
+    - label: addCourseReport (900 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 900 data (I5)
+      txNumber: 900
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I5
+          pt: false
+
+
+    - label: addCourseReport (900 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 900 data (I6)
+      txNumber: 900
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I6
+          pt: false
+
+
+    - label: addCourseReport (900 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 900 data (I7)
+      txNumber: 900
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I7
+          pt: false
+
+
+    - label: addCourseReport (900 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 900 data (I8)
+      txNumber: 900
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I8
+          pt: false
+
+
+    - label: addCourseReport (900 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 900 data (I9)
+      txNumber: 900
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I9
+          pt: false
+
+
+    - label: addCourseReport (1000 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 1000 data (I0)
+      txNumber: 1000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I0
+          pt: false
+
+
+    - label: addCourseReport (1000 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 1000 data (I1)
+      txNumber: 1000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I1
+          pt: false
+
+
+    - label: addCourseReport (1000 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 1000 data (I2)
+      txNumber: 1000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I2
+          pt: false
+
+
+    - label: addCourseReport (1000 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 1000 data (I3)
+      txNumber: 1000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I3
+          pt: false
+
+
+    - label: addCourseReport (1000 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 1000 data (I4)
+      txNumber: 1000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I4
+          pt: false
+
+
+    - label: addCourseReport (1000 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 1000 data (I5)
+      txNumber: 1000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I5
+          pt: false
+
+
+    - label: addCourseReport (1000 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 1000 data (I6)
+      txNumber: 1000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I6
+          pt: false
+
+
+    - label: addCourseReport (1000 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 1000 data (I7)
+      txNumber: 1000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I7
+          pt: false
+
+
+    - label: addCourseReport (1000 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 1000 data (I8)
+      txNumber: 1000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I8
+          pt: false
+
+
+    - label: addCourseReport (1000 Trx) 
+      description: Tambah data transkrip (addCourseReport) sebanyak 1000 data (I9)
+      txNumber: 1000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addTranscript.js
+        arguments:
+          contract: I9
+          pt: false
+
+    - label: addInternExp (100 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 100 data (I0)
+      txNumber: 100
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I0
+          pt: false
+
+
+    - label: addInternExp (100 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 100 data (I1)
+      txNumber: 100
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I1
+          pt: false
+
+
+    - label: addInternExp (100 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 100 data (I2)
+      txNumber: 100
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I2
+          pt: false
+
+
+    - label: addInternExp (100 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 100 data (I3)
+      txNumber: 100
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I3
+          pt: false
+
+
+    - label: addInternExp (100 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 100 data (I4)
+      txNumber: 100
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I4
+          pt: false
+
+
+    - label: addInternExp (100 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 100 data (I5)
+      txNumber: 100
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I5
+          pt: false
+
+
+    - label: addInternExp (100 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 100 data (I6)
+      txNumber: 100
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I6
+          pt: false
+
+
+    - label: addInternExp (100 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 100 data (I7)
+      txNumber: 100
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I7
+          pt: false
+
+
+    - label: addInternExp (100 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 100 data (I8)
+      txNumber: 100
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I8
+          pt: false
+
+
+    - label: addInternExp (100 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 100 data (I9)
+      txNumber: 100
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I9
+          pt: false
+
+
+    - label: addInternExp (200 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 200 data (I0)
+      txNumber: 200
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I0
+          pt: false
+
+
+    - label: addInternExp (200 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 200 data (I1)
+      txNumber: 200
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I1
+          pt: false
+
+
+    - label: addInternExp (200 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 200 data (I2)
+      txNumber: 200
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I2
+          pt: false
+
+
+    - label: addInternExp (200 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 200 data (I3)
+      txNumber: 200
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I3
+          pt: false
+
+
+    - label: addInternExp (200 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 200 data (I4)
+      txNumber: 200
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I4
+          pt: false
+
+
+    - label: addInternExp (200 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 200 data (I5)
+      txNumber: 200
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I5
+          pt: false
+
+
+    - label: addInternExp (200 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 200 data (I6)
+      txNumber: 200
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I6
+          pt: false
+
+
+    - label: addInternExp (200 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 200 data (I7)
+      txNumber: 200
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I7
+          pt: false
+
+
+    - label: addInternExp (200 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 200 data (I8)
+      txNumber: 200
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I8
+          pt: false
+
+
+    - label: addInternExp (200 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 200 data (I9)
+      txNumber: 200
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I9
+          pt: false
+
+
+    - label: addInternExp (300 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 300 data (I0)
+      txNumber: 300
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I0
+          pt: false
+
+
+    - label: addInternExp (300 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 300 data (I1)
+      txNumber: 300
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I1
+          pt: false
+
+
+    - label: addInternExp (300 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 300 data (I2)
+      txNumber: 300
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I2
+          pt: false
+
+
+    - label: addInternExp (300 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 300 data (I3)
+      txNumber: 300
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I3
+          pt: false
+
+
+    - label: addInternExp (300 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 300 data (I4)
+      txNumber: 300
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I4
+          pt: false
+
+
+    - label: addInternExp (300 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 300 data (I5)
+      txNumber: 300
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I5
+          pt: false
+
+
+    - label: addInternExp (300 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 300 data (I6)
+      txNumber: 300
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I6
+          pt: false
+
+
+    - label: addInternExp (300 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 300 data (I7)
+      txNumber: 300
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I7
+          pt: false
+
+
+    - label: addInternExp (300 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 300 data (I8)
+      txNumber: 300
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I8
+          pt: false
+
+
+    - label: addInternExp (300 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 300 data (I9)
+      txNumber: 300
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I9
+          pt: false
+
+
+    - label: addInternExp (400 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 400 data (I0)
+      txNumber: 400
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I0
+          pt: false
+
+
+    - label: addInternExp (400 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 400 data (I1)
+      txNumber: 400
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I1
+          pt: false
+
+
+    - label: addInternExp (400 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 400 data (I2)
+      txNumber: 400
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I2
+          pt: false
+
+
+    - label: addInternExp (400 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 400 data (I3)
+      txNumber: 400
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I3
+          pt: false
+
+
+    - label: addInternExp (400 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 400 data (I4)
+      txNumber: 400
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I4
+          pt: false
+
+
+    - label: addInternExp (400 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 400 data (I5)
+      txNumber: 400
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I5
+          pt: false
+
+
+    - label: addInternExp (400 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 400 data (I6)
+      txNumber: 400
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I6
+          pt: false
+
+
+    - label: addInternExp (400 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 400 data (I7)
+      txNumber: 400
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I7
+          pt: false
+
+
+    - label: addInternExp (400 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 400 data (I8)
+      txNumber: 400
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I8
+          pt: false
+
+
+    - label: addInternExp (400 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 400 data (I9)
+      txNumber: 400
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I9
+          pt: false
+
+
+    - label: addInternExp (500 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 500 data (I0)
+      txNumber: 500
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I0
+          pt: false
+
+
+    - label: addInternExp (500 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 500 data (I1)
+      txNumber: 500
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I1
+          pt: false
+
+
+    - label: addInternExp (500 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 500 data (I2)
+      txNumber: 500
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I2
+          pt: false
+
+
+    - label: addInternExp (500 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 500 data (I3)
+      txNumber: 500
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I3
+          pt: false
+
+
+    - label: addInternExp (500 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 500 data (I4)
+      txNumber: 500
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I4
+          pt: false
+
+
+    - label: addInternExp (500 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 500 data (I5)
+      txNumber: 500
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I5
+          pt: false
+
+
+    - label: addInternExp (500 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 500 data (I6)
+      txNumber: 500
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I6
+          pt: false
+
+
+    - label: addInternExp (500 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 500 data (I7)
+      txNumber: 500
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I7
+          pt: false
+
+
+    - label: addInternExp (500 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 500 data (I8)
+      txNumber: 500
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I8
+          pt: false
+
+
+    - label: addInternExp (500 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 500 data (I9)
+      txNumber: 500
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I9
+          pt: false
+
+
+    - label: addInternExp (600 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 600 data (I0)
+      txNumber: 600
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I0
+          pt: false
+
+
+    - label: addInternExp (600 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 600 data (I1)
+      txNumber: 600
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I1
+          pt: false
+
+
+    - label: addInternExp (600 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 600 data (I2)
+      txNumber: 600
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I2
+          pt: false
+
+
+    - label: addInternExp (600 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 600 data (I3)
+      txNumber: 600
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I3
+          pt: false
+
+
+    - label: addInternExp (600 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 600 data (I4)
+      txNumber: 600
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I4
+          pt: false
+
+
+    - label: addInternExp (600 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 600 data (I5)
+      txNumber: 600
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I5
+          pt: false
+
+
+    - label: addInternExp (600 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 600 data (I6)
+      txNumber: 600
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I6
+          pt: false
+
+
+    - label: addInternExp (600 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 600 data (I7)
+      txNumber: 600
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I7
+          pt: false
+
+
+    - label: addInternExp (600 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 600 data (I8)
+      txNumber: 600
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I8
+          pt: false
+
+
+    - label: addInternExp (600 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 600 data (I9)
+      txNumber: 600
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I9
+          pt: false
+
+
+    - label: addInternExp (700 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 700 data (I0)
+      txNumber: 700
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I0
+          pt: false
+
+
+    - label: addInternExp (700 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 700 data (I1)
+      txNumber: 700
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I1
+          pt: false
+
+
+    - label: addInternExp (700 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 700 data (I2)
+      txNumber: 700
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I2
+          pt: false
+
+
+    - label: addInternExp (700 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 700 data (I3)
+      txNumber: 700
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I3
+          pt: false
+
+
+    - label: addInternExp (700 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 700 data (I4)
+      txNumber: 700
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I4
+          pt: false
+
+
+    - label: addInternExp (700 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 700 data (I5)
+      txNumber: 700
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I5
+          pt: false
+
+
+    - label: addInternExp (700 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 700 data (I6)
+      txNumber: 700
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I6
+          pt: false
+
+
+    - label: addInternExp (700 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 700 data (I7)
+      txNumber: 700
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I7
+          pt: false
+
+
+    - label: addInternExp (700 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 700 data (I8)
+      txNumber: 700
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I8
+          pt: false
+
+
+    - label: addInternExp (700 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 700 data (I9)
+      txNumber: 700
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I9
+          pt: false
+
+
+    - label: addInternExp (800 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 800 data (I0)
+      txNumber: 800
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I0
+          pt: false
+
+
+    - label: addInternExp (800 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 800 data (I1)
+      txNumber: 800
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I1
+          pt: false
+
+
+    - label: addInternExp (800 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 800 data (I2)
+      txNumber: 800
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I2
+          pt: false
+
+
+    - label: addInternExp (800 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 800 data (I3)
+      txNumber: 800
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I3
+          pt: false
+
+
+    - label: addInternExp (800 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 800 data (I4)
+      txNumber: 800
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I4
+          pt: false
+
+
+    - label: addInternExp (800 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 800 data (I5)
+      txNumber: 800
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I5
+          pt: false
+
+
+    - label: addInternExp (800 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 800 data (I6)
+      txNumber: 800
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I6
+          pt: false
+
+
+    - label: addInternExp (800 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 800 data (I7)
+      txNumber: 800
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I7
+          pt: false
+
+
+    - label: addInternExp (800 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 800 data (I8)
+      txNumber: 800
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I8
+          pt: false
+
+
+    - label: addInternExp (800 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 800 data (I9)
+      txNumber: 800
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I9
+          pt: false
+
+
+    - label: addInternExp (900 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 900 data (I0)
+      txNumber: 900
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I0
+          pt: false
+
+
+    - label: addInternExp (900 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 900 data (I1)
+      txNumber: 900
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I1
+          pt: false
+
+
+    - label: addInternExp (900 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 900 data (I2)
+      txNumber: 900
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I2
+          pt: false
+
+
+    - label: addInternExp (900 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 900 data (I3)
+      txNumber: 900
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I3
+          pt: false
+
+
+    - label: addInternExp (900 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 900 data (I4)
+      txNumber: 900
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I4
+          pt: false
+
+
+    - label: addInternExp (900 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 900 data (I5)
+      txNumber: 900
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I5
+          pt: false
+
+
+    - label: addInternExp (900 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 900 data (I6)
+      txNumber: 900
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I6
+          pt: false
+
+
+    - label: addInternExp (900 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 900 data (I7)
+      txNumber: 900
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I7
+          pt: false
+
+
+    - label: addInternExp (900 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 900 data (I8)
+      txNumber: 900
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I8
+          pt: false
+
+
+    - label: addInternExp (900 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 900 data (I9)
+      txNumber: 900
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I9
+          pt: false
+
+
+    - label: addInternExp (1000 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 1000 data (I0)
+      txNumber: 1000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I0
+          pt: false
+
+
+    - label: addInternExp (1000 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 1000 data (I1)
+      txNumber: 1000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I1
+          pt: false
+
+
+    - label: addInternExp (1000 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 1000 data (I2)
+      txNumber: 1000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I2
+          pt: false
+
+
+    - label: addInternExp (1000 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 1000 data (I3)
+      txNumber: 1000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I3
+          pt: false
+
+
+    - label: addInternExp (1000 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 1000 data (I4)
+      txNumber: 1000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I4
+          pt: false
+
+
+    - label: addInternExp (1000 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 1000 data (I5)
+      txNumber: 1000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I5
+          pt: false
+
+
+    - label: addInternExp (1000 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 1000 data (I6)
+      txNumber: 1000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I6
+          pt: false
+
+
+    - label: addInternExp (1000 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 1000 data (I7)
+      txNumber: 1000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I7
+          pt: false
+
+
+    - label: addInternExp (1000 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 1000 data (I8)
+      txNumber: 1000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I8
+          pt: false
+
+
+    - label: addInternExp (1000 Trx)
+      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 1000 data (I9)
+      txNumber: 1000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addInternshipExperience.js
+        arguments:
+          contract: I9
+          pt: false
+
+
+    - label: addProject (100 Trx)
+      description: Tambah data proyek (addProject) sebanyak 100 data (I0)
+      txNumber: 100
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I0
+          pt: false
+
+
+    - label: addProject (100 Trx)
+      description: Tambah data proyek (addProject) sebanyak 100 data (I1)
+      txNumber: 100
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I1
+          pt: false
+
+
+    - label: addProject (100 Trx)
+      description: Tambah data proyek (addProject) sebanyak 100 data (I2)
+      txNumber: 100
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I2
+          pt: false
+
+
+    - label: addProject (100 Trx)
+      description: Tambah data proyek (addProject) sebanyak 100 data (I3)
+      txNumber: 100
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I3
+          pt: false
+
+
+    - label: addProject (100 Trx)
+      description: Tambah data proyek (addProject) sebanyak 100 data (I4)
+      txNumber: 100
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I4
+          pt: false
+
+
+    - label: addProject (100 Trx)
+      description: Tambah data proyek (addProject) sebanyak 100 data (I5)
+      txNumber: 100
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I5
+          pt: false
+
+
+    - label: addProject (100 Trx)
+      description: Tambah data proyek (addProject) sebanyak 100 data (I6)
+      txNumber: 100
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I6
+          pt: false
+
+
+    - label: addProject (100 Trx)
+      description: Tambah data proyek (addProject) sebanyak 100 data (I7)
+      txNumber: 100
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I7
+          pt: false
+
+
+    - label: addProject (100 Trx)
+      description: Tambah data proyek (addProject) sebanyak 100 data (I8)
+      txNumber: 100
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I8
+          pt: false
+
+
+    - label: addProject (100 Trx)
+      description: Tambah data proyek (addProject) sebanyak 100 data (I9)
+      txNumber: 100
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I9
+          pt: false
+
+
+    - label: addProject (200 Trx)
+      description: Tambah data proyek (addProject) sebanyak 200 data (I0)
+      txNumber: 200
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I0
+          pt: false
+
+
+    - label: addProject (200 Trx)
+      description: Tambah data proyek (addProject) sebanyak 200 data (I1)
+      txNumber: 200
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I1
+          pt: false
+
+
+    - label: addProject (200 Trx)
+      description: Tambah data proyek (addProject) sebanyak 200 data (I2)
+      txNumber: 200
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I2
+          pt: false
+
+
+    - label: addProject (200 Trx)
+      description: Tambah data proyek (addProject) sebanyak 200 data (I3)
+      txNumber: 200
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I3
+          pt: false
+
+
+    - label: addProject (200 Trx)
+      description: Tambah data proyek (addProject) sebanyak 200 data (I4)
+      txNumber: 200
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I4
+          pt: false
+
+
+    - label: addProject (200 Trx)
+      description: Tambah data proyek (addProject) sebanyak 200 data (I5)
+      txNumber: 200
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I5
+          pt: false
+
+
+    - label: addProject (200 Trx)
+      description: Tambah data proyek (addProject) sebanyak 200 data (I6)
+      txNumber: 200
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I6
+          pt: false
+
+
+    - label: addProject (200 Trx)
+      description: Tambah data proyek (addProject) sebanyak 200 data (I7)
+      txNumber: 200
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I7
+          pt: false
+
+
+    - label: addProject (200 Trx)
+      description: Tambah data proyek (addProject) sebanyak 200 data (I8)
+      txNumber: 200
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I8
+          pt: false
+
+
+    - label: addProject (200 Trx)
+      description: Tambah data proyek (addProject) sebanyak 200 data (I9)
+      txNumber: 200
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I9
+          pt: false
+
+
+    - label: addProject (300 Trx)
+      description: Tambah data proyek (addProject) sebanyak 300 data (I0)
+      txNumber: 300
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I0
+          pt: false
+
+
+    - label: addProject (300 Trx)
+      description: Tambah data proyek (addProject) sebanyak 300 data (I1)
+      txNumber: 300
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I1
+          pt: false
+
+
+    - label: addProject (300 Trx)
+      description: Tambah data proyek (addProject) sebanyak 300 data (I2)
+      txNumber: 300
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I2
+          pt: false
+
+
+    - label: addProject (300 Trx)
+      description: Tambah data proyek (addProject) sebanyak 300 data (I3)
+      txNumber: 300
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I3
+          pt: false
+
+
+    - label: addProject (300 Trx)
+      description: Tambah data proyek (addProject) sebanyak 300 data (I4)
+      txNumber: 300
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I4
+          pt: false
+
+
+    - label: addProject (300 Trx)
+      description: Tambah data proyek (addProject) sebanyak 300 data (I5)
+      txNumber: 300
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I5
+          pt: false
+
+
+    - label: addProject (300 Trx)
+      description: Tambah data proyek (addProject) sebanyak 300 data (I6)
+      txNumber: 300
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I6
+          pt: false
+
+
+    - label: addProject (300 Trx)
+      description: Tambah data proyek (addProject) sebanyak 300 data (I7)
+      txNumber: 300
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I7
+          pt: false
+
+
+    - label: addProject (300 Trx)
+      description: Tambah data proyek (addProject) sebanyak 300 data (I8)
+      txNumber: 300
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I8
+          pt: false
+
+
+    - label: addProject (300 Trx)
+      description: Tambah data proyek (addProject) sebanyak 300 data (I9)
+      txNumber: 300
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I9
+          pt: false
+
+
+    - label: addProject (400 Trx)
+      description: Tambah data proyek (addProject) sebanyak 400 data (I0)
+      txNumber: 400
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I0
+          pt: false
+
+
+    - label: addProject (400 Trx)
+      description: Tambah data proyek (addProject) sebanyak 400 data (I1)
+      txNumber: 400
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I1
+          pt: false
+
+
+    - label: addProject (400 Trx)
+      description: Tambah data proyek (addProject) sebanyak 400 data (I2)
+      txNumber: 400
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I2
+          pt: false
+
+
+    - label: addProject (400 Trx)
+      description: Tambah data proyek (addProject) sebanyak 400 data (I3)
+      txNumber: 400
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I3
+          pt: false
+
+
+    - label: addProject (400 Trx)
+      description: Tambah data proyek (addProject) sebanyak 400 data (I4)
+      txNumber: 400
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I4
+          pt: false
+
+
+    - label: addProject (400 Trx)
+      description: Tambah data proyek (addProject) sebanyak 400 data (I5)
+      txNumber: 400
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I5
+          pt: false
+
+
+    - label: addProject (400 Trx)
+      description: Tambah data proyek (addProject) sebanyak 400 data (I6)
+      txNumber: 400
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I6
+          pt: false
+
+
+    - label: addProject (400 Trx)
+      description: Tambah data proyek (addProject) sebanyak 400 data (I7)
+      txNumber: 400
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I7
+          pt: false
+
+
+    - label: addProject (400 Trx)
+      description: Tambah data proyek (addProject) sebanyak 400 data (I8)
+      txNumber: 400
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I8
+          pt: false
+
+
+    - label: addProject (400 Trx)
+      description: Tambah data proyek (addProject) sebanyak 400 data (I9)
+      txNumber: 400
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I9
+          pt: false
+
+
+    - label: addProject (500 Trx)
+      description: Tambah data proyek (addProject) sebanyak 500 data (I0)
+      txNumber: 500
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I0
+          pt: false
+
+
+    - label: addProject (500 Trx)
+      description: Tambah data proyek (addProject) sebanyak 500 data (I1)
+      txNumber: 500
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I1
+          pt: false
+
+
+    - label: addProject (500 Trx)
+      description: Tambah data proyek (addProject) sebanyak 500 data (I2)
+      txNumber: 500
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I2
+          pt: false
+
+
+    - label: addProject (500 Trx)
+      description: Tambah data proyek (addProject) sebanyak 500 data (I3)
+      txNumber: 500
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I3
+          pt: false
+
+
+    - label: addProject (500 Trx)
+      description: Tambah data proyek (addProject) sebanyak 500 data (I4)
+      txNumber: 500
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I4
+          pt: false
+
+
+    - label: addProject (500 Trx)
+      description: Tambah data proyek (addProject) sebanyak 500 data (I5)
+      txNumber: 500
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I5
+          pt: false
+
+
+    - label: addProject (500 Trx)
+      description: Tambah data proyek (addProject) sebanyak 500 data (I6)
+      txNumber: 500
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I6
+          pt: false
+
+
+    - label: addProject (500 Trx)
+      description: Tambah data proyek (addProject) sebanyak 500 data (I7)
+      txNumber: 500
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I7
+          pt: false
+
+
+    - label: addProject (500 Trx)
+      description: Tambah data proyek (addProject) sebanyak 500 data (I8)
+      txNumber: 500
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I8
+          pt: false
+
+
+    - label: addProject (500 Trx)
+      description: Tambah data proyek (addProject) sebanyak 500 data (I9)
+      txNumber: 500
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I9
+          pt: false
+
+
+    - label: addProject (600 Trx)
+      description: Tambah data proyek (addProject) sebanyak 600 data (I0)
+      txNumber: 600
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I0
+          pt: false
+
+
+    - label: addProject (600 Trx)
+      description: Tambah data proyek (addProject) sebanyak 600 data (I1)
+      txNumber: 600
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I1
+          pt: false
+
+
+    - label: addProject (600 Trx)
+      description: Tambah data proyek (addProject) sebanyak 600 data (I2)
+      txNumber: 600
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I2
+          pt: false
+
+
+    - label: addProject (600 Trx)
+      description: Tambah data proyek (addProject) sebanyak 600 data (I3)
+      txNumber: 600
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I3
+          pt: false
+
+
+    - label: addProject (600 Trx)
+      description: Tambah data proyek (addProject) sebanyak 600 data (I4)
+      txNumber: 600
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I4
+          pt: false
+
+
+    - label: addProject (600 Trx)
+      description: Tambah data proyek (addProject) sebanyak 600 data (I5)
+      txNumber: 600
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I5
+          pt: false
+
+
+    - label: addProject (600 Trx)
+      description: Tambah data proyek (addProject) sebanyak 600 data (I6)
+      txNumber: 600
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I6
+          pt: false
+
+
+    - label: addProject (600 Trx)
+      description: Tambah data proyek (addProject) sebanyak 600 data (I7)
+      txNumber: 600
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I7
+          pt: false
+
+
+    - label: addProject (600 Trx)
+      description: Tambah data proyek (addProject) sebanyak 600 data (I8)
+      txNumber: 600
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I8
+          pt: false
+
+
+    - label: addProject (600 Trx)
+      description: Tambah data proyek (addProject) sebanyak 600 data (I9)
+      txNumber: 600
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I9
+          pt: false
+
+
+    - label: addProject (700 Trx)
+      description: Tambah data proyek (addProject) sebanyak 700 data (I0)
+      txNumber: 700
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I0
+          pt: false
+
+
+    - label: addProject (700 Trx)
+      description: Tambah data proyek (addProject) sebanyak 700 data (I1)
+      txNumber: 700
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I1
+          pt: false
+
+
+    - label: addProject (700 Trx)
+      description: Tambah data proyek (addProject) sebanyak 700 data (I2)
+      txNumber: 700
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I2
+          pt: false
+
+
+    - label: addProject (700 Trx)
+      description: Tambah data proyek (addProject) sebanyak 700 data (I3)
+      txNumber: 700
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I3
+          pt: false
+
+
+    - label: addProject (700 Trx)
+      description: Tambah data proyek (addProject) sebanyak 700 data (I4)
+      txNumber: 700
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I4
+          pt: false
+
+
+    - label: addProject (700 Trx)
+      description: Tambah data proyek (addProject) sebanyak 700 data (I5)
+      txNumber: 700
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I5
+          pt: false
+
+
+    - label: addProject (700 Trx)
+      description: Tambah data proyek (addProject) sebanyak 700 data (I6)
+      txNumber: 700
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I6
+          pt: false
+
+
+    - label: addProject (700 Trx)
+      description: Tambah data proyek (addProject) sebanyak 700 data (I7)
+      txNumber: 700
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I7
+          pt: false
+
+
+    - label: addProject (700 Trx)
+      description: Tambah data proyek (addProject) sebanyak 700 data (I8)
+      txNumber: 700
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I8
+          pt: false
+
+
+    - label: addProject (700 Trx)
+      description: Tambah data proyek (addProject) sebanyak 700 data (I9)
+      txNumber: 700
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I9
+          pt: false
+
+
+    - label: addProject (800 Trx)
+      description: Tambah data proyek (addProject) sebanyak 800 data (I0)
+      txNumber: 800
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I0
+          pt: false
+
+
+    - label: addProject (800 Trx)
+      description: Tambah data proyek (addProject) sebanyak 800 data (I1)
+      txNumber: 800
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I1
+          pt: false
+
+
+    - label: addProject (800 Trx)
+      description: Tambah data proyek (addProject) sebanyak 800 data (I2)
+      txNumber: 800
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I2
+          pt: false
+
+
+    - label: addProject (800 Trx)
+      description: Tambah data proyek (addProject) sebanyak 800 data (I3)
+      txNumber: 800
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I3
+          pt: false
+
+
+    - label: addProject (800 Trx)
+      description: Tambah data proyek (addProject) sebanyak 800 data (I4)
+      txNumber: 800
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I4
+          pt: false
+
+
+    - label: addProject (800 Trx)
+      description: Tambah data proyek (addProject) sebanyak 800 data (I5)
+      txNumber: 800
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I5
+          pt: false
+
+
+    - label: addProject (800 Trx)
+      description: Tambah data proyek (addProject) sebanyak 800 data (I6)
+      txNumber: 800
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I6
+          pt: false
+
+
+    - label: addProject (800 Trx)
+      description: Tambah data proyek (addProject) sebanyak 800 data (I7)
+      txNumber: 800
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I7
+          pt: false
+
+
+    - label: addProject (800 Trx)
+      description: Tambah data proyek (addProject) sebanyak 800 data (I8)
+      txNumber: 800
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I8
+          pt: false
+
+
+    - label: addProject (800 Trx)
+      description: Tambah data proyek (addProject) sebanyak 800 data (I9)
+      txNumber: 800
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I9
+          pt: false
+
+
+    - label: addProject (900 Trx)
+      description: Tambah data proyek (addProject) sebanyak 900 data (I0)
+      txNumber: 900
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I0
+          pt: false
+
+
+    - label: addProject (900 Trx)
+      description: Tambah data proyek (addProject) sebanyak 900 data (I1)
+      txNumber: 900
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I1
+          pt: false
+
+
+    - label: addProject (900 Trx)
+      description: Tambah data proyek (addProject) sebanyak 900 data (I2)
+      txNumber: 900
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I2
+          pt: false
+
+
+    - label: addProject (900 Trx)
+      description: Tambah data proyek (addProject) sebanyak 900 data (I3)
+      txNumber: 900
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I3
+          pt: false
+
+
+    - label: addProject (900 Trx)
+      description: Tambah data proyek (addProject) sebanyak 900 data (I4)
+      txNumber: 900
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I4
+          pt: false
+
+
+    - label: addProject (900 Trx)
+      description: Tambah data proyek (addProject) sebanyak 900 data (I5)
+      txNumber: 900
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I5
+          pt: false
+
+
+    - label: addProject (900 Trx)
+      description: Tambah data proyek (addProject) sebanyak 900 data (I6)
+      txNumber: 900
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I6
+          pt: false
+
+
+    - label: addProject (900 Trx)
+      description: Tambah data proyek (addProject) sebanyak 900 data (I7)
+      txNumber: 900
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I7
+          pt: false
+
+
+    - label: addProject (900 Trx)
+      description: Tambah data proyek (addProject) sebanyak 900 data (I8)
+      txNumber: 900
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I8
+          pt: false
+
+
+    - label: addProject (900 Trx)
+      description: Tambah data proyek (addProject) sebanyak 900 data (I9)
+      txNumber: 900
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I9
+          pt: false
+
+
+    - label: addProject (1000 Trx)
+      description: Tambah data proyek (addProject) sebanyak 1000 data (I0)
+      txNumber: 1000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I0
+          pt: false
+
+
+    - label: addProject (1000 Trx)
+      description: Tambah data proyek (addProject) sebanyak 1000 data (I1)
+      txNumber: 1000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I1
+          pt: false
+
+
+    - label: addProject (1000 Trx)
+      description: Tambah data proyek (addProject) sebanyak 1000 data (I2)
+      txNumber: 1000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I2
+          pt: false
+
+
+    - label: addProject (1000 Trx)
+      description: Tambah data proyek (addProject) sebanyak 1000 data (I3)
+      txNumber: 1000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I3
+          pt: false
+
+
+    - label: addProject (1000 Trx)
+      description: Tambah data proyek (addProject) sebanyak 1000 data (I4)
+      txNumber: 1000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I4
+          pt: false
+
+
+    - label: addProject (1000 Trx)
+      description: Tambah data proyek (addProject) sebanyak 1000 data (I5)
+      txNumber: 1000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I5
+          pt: false
+
+
+    - label: addProject (1000 Trx)
+      description: Tambah data proyek (addProject) sebanyak 1000 data (I6)
+      txNumber: 1000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I6
+          pt: false
+
+
+    - label: addProject (1000 Trx)
+      description: Tambah data proyek (addProject) sebanyak 1000 data (I7)
+      txNumber: 1000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I7
+          pt: false
+
+
+    - label: addProject (1000 Trx)
+      description: Tambah data proyek (addProject) sebanyak 1000 data (I8)
+      txNumber: 1000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I8
+          pt: false
+
+
+    - label: addProject (1000 Trx)
+      description: Tambah data proyek (addProject) sebanyak 1000 data (I9)
+      txNumber: 1000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: workload-module/addProject.js
+        arguments:
+          contract: I9
+          pt: false

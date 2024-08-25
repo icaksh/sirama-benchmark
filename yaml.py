@@ -173,8 +173,8 @@ for j in range(100,1001,100):
 '''
         print(config)
 for j in range(100,1001,100):
-        for i in range(10):
-                config = f'''
+    for i in range(10):
+        config = f'''
     - label: getSARForPublic ({j} Trx)
       description: Ambil data mahasiswa untuk publik (getStudentAcademicReputation) sebanyak {j} data (I{i})
       txNumber: {j}

@@ -1,6 +1,7 @@
 'use strict';
 
 const fs = require('fs');
+const axios = require('axios');
 
 const { WorkloadModuleBase} = require('@hyperledger/caliper-core');
 
@@ -15,7 +16,7 @@ class AddStudent extends WorkloadModuleBase {
     async submitTransaction() {
         let student = this.data[0][this.txIndex];
         if(!this.roundArguments.pt){
-            student = this.data[this.roundIndex][this.txIndex];
+            student = this.data[this.roundIndex%100][this.txIndex];
         }
         this.txIndex++;
         let txArgs = [{
@@ -29,7 +30,17 @@ class AddStudent extends WorkloadModuleBase {
     }
 
     async cleanupWorkloadModule() {
-        console.log(`Worker is cleaning up.`);
+        const botToken = process.env.TELEGRAM_BOT_TOKEN;
+        const chatId = process.env.TELEGRAM_CHAT_ID;
+        let message = 'Scalability test\n'
+        if(this.roundArguments.pt){
+            message = 'Performance test\n'
+        }
+        message += `getStudentForAdmin has been executed successfully (${this.txIndex}) (${this.roundArguments.contract})`
+
+        const url = `https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${chatId}&text=${message}`;
+        console.log(url)
+        await axios.get(url);
     }
 }
 
