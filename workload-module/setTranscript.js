@@ -15,7 +15,7 @@ class AddStudent extends WorkloadModuleBase {
     async submitTransaction() {
         let transcript = this.data[0][this.txIndex];
         if(!this.roundArguments.pt){
-            transcript = this.data[this.roundIndex%100][this.txIndex];
+            transcript = this.data[this.roundIndex%50][this.txIndex];
         }
         this.txIndex++;
         let txArgs = [{
@@ -31,9 +31,9 @@ class AddStudent extends WorkloadModuleBase {
     async cleanupWorkloadModule() {
         const botToken = process.env.TELEGRAM_BOT_TOKEN;
         const chatId = process.env.TELEGRAM_CHAT_ID;
-        let message = 'Scalability test\n'
+        let message = 'Scalability test: '
         if(this.roundArguments.pt){
-            message = 'Performance test\n'
+            message = 'Performance test: '
         }
         message += `setTranscript has been executed successfully (${this.txIndex}) (${this.roundArguments.contract})`
 

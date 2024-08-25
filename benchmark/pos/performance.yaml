@@ -5,6 +5,7 @@ test:
     type: local
     number: 1
   rounds:
+
     - label: addStudent (100 Trx)
       description: Tambah data mahasiswa (addStudent) sebanyak 100 data (I0)
       txNumber: 100
@@ -16,7 +17,8 @@ test:
         module: workload-module/addStudent.js
         arguments:
           contract: I0
-          pt: true
+          pt: false
+
 
     - label: addStudent (100 Trx)
       description: Tambah data mahasiswa (addStudent) sebanyak 100 data (I1)
@@ -29,7 +31,8 @@ test:
         module: workload-module/addStudent.js
         arguments:
           contract: I1
-          pt: true
+          pt: false
+
 
     - label: addStudent (100 Trx)
       description: Tambah data mahasiswa (addStudent) sebanyak 100 data (I2)
@@ -42,7 +45,8 @@ test:
         module: workload-module/addStudent.js
         arguments:
           contract: I2
-          pt: true
+          pt: false
+
 
     - label: addStudent (100 Trx)
       description: Tambah data mahasiswa (addStudent) sebanyak 100 data (I3)
@@ -55,7 +59,8 @@ test:
         module: workload-module/addStudent.js
         arguments:
           contract: I3
-          pt: true
+          pt: false
+
 
     - label: addStudent (100 Trx)
       description: Tambah data mahasiswa (addStudent) sebanyak 100 data (I4)
@@ -68,74 +73,10 @@ test:
         module: workload-module/addStudent.js
         arguments:
           contract: I4
-          pt: true
+          pt: false
 
-    - label: addStudent (100 Trx)
-      description: Tambah data mahasiswa (addStudent) sebanyak 100 data (I5)
-      txNumber: 100
-      rateControl:
-        type: fixed-rate
-        opts:
-          tps: 100
-      workload:
-        module: workload-module/addStudent.js
-        arguments:
-          contract: I5
-          pt: true
 
-    - label: addStudent (100 Trx)
-      description: Tambah data mahasiswa (addStudent) sebanyak 100 data (I6)
-      txNumber: 100
-      rateControl:
-        type: fixed-rate
-        opts:
-          tps: 100
-      workload:
-        module: workload-module/addStudent.js
-        arguments:
-          contract: I6
-          pt: true
-
-    - label: addStudent (100 Trx)
-      description: Tambah data mahasiswa (addStudent) sebanyak 100 data (I7)
-      txNumber: 100
-      rateControl:
-        type: fixed-rate
-        opts:
-          tps: 100
-      workload:
-        module: workload-module/addStudent.js
-        arguments:
-          contract: I7
-          pt: true
-
-    - label: addStudent (100 Trx)
-      description: Tambah data mahasiswa (addStudent) sebanyak 100 data (I8)
-      txNumber: 100
-      rateControl:
-        type: fixed-rate
-        opts:
-          tps: 100
-      workload:
-        module: workload-module/addStudent.js
-        arguments:
-          contract: I8
-          pt: true
-
-    - label: addStudent (100 Trx)
-      description: Tambah data mahasiswa (addStudent) sebanyak 100 data (I9)
-      txNumber: 100
-      rateControl:
-        type: fixed-rate
-        opts:
-          tps: 100
-      workload:
-        module: workload-module/addStudent.js
-        arguments:
-          contract: I9
-          pt: true
-
-    - label: addCourseReport (100 Trx)
+    - label: addCourseReport (100 Trx) 
       description: Tambah data transkrip (addCourseReport) sebanyak 100 data (I0)
       txNumber: 100
       rateControl:
@@ -146,9 +87,10 @@ test:
         module: workload-module/addTranscript.js
         arguments:
           contract: I0
-          pt: true
+          pt: false
 
-    - label: addCourseReport (100 Trx)
+
+    - label: addCourseReport (100 Trx) 
       description: Tambah data transkrip (addCourseReport) sebanyak 100 data (I1)
       txNumber: 100
       rateControl:
@@ -159,9 +101,10 @@ test:
         module: workload-module/addTranscript.js
         arguments:
           contract: I1
-          pt: true
+          pt: false
 
-    - label: addCourseReport (100 Trx)
+
+    - label: addCourseReport (100 Trx) 
       description: Tambah data transkrip (addCourseReport) sebanyak 100 data (I2)
       txNumber: 100
       rateControl:
@@ -172,9 +115,10 @@ test:
         module: workload-module/addTranscript.js
         arguments:
           contract: I2
-          pt: true
+          pt: false
 
-    - label: addCourseReport (100 Trx)
+
+    - label: addCourseReport (100 Trx) 
       description: Tambah data transkrip (addCourseReport) sebanyak 100 data (I3)
       txNumber: 100
       rateControl:
@@ -185,9 +129,10 @@ test:
         module: workload-module/addTranscript.js
         arguments:
           contract: I3
-          pt: true
+          pt: false
 
-    - label: addCourseReport (100 Trx)
+
+    - label: addCourseReport (100 Trx) 
       description: Tambah data transkrip (addCourseReport) sebanyak 100 data (I4)
       txNumber: 100
       rateControl:
@@ -198,72 +143,8 @@ test:
         module: workload-module/addTranscript.js
         arguments:
           contract: I4
-          pt: true
+          pt: false
 
-    - label: addCourseReport (100 Trx)
-      description: Tambah data transkrip (addCourseReport) sebanyak 100 data (I5)
-      txNumber: 100
-      rateControl:
-        type: fixed-rate
-        opts:
-          tps: 100
-      workload:
-        module: workload-module/addTranscript.js
-        arguments:
-          contract: I5
-          pt: true
-
-    - label: addCourseReport (100 Trx)
-      description: Tambah data transkrip (addCourseReport) sebanyak 100 data (I6)
-      txNumber: 100
-      rateControl:
-        type: fixed-rate
-        opts:
-          tps: 100
-      workload:
-        module: workload-module/addTranscript.js
-        arguments:
-          contract: I6
-          pt: true
-
-    - label: addCourseReport (100 Trx)
-      description: Tambah data transkrip (addCourseReport) sebanyak 100 data (I7)
-      txNumber: 100
-      rateControl:
-        type: fixed-rate
-        opts:
-          tps: 100
-      workload:
-        module: workload-module/addTranscript.js
-        arguments:
-          contract: I7
-          pt: true
-
-    - label: addCourseReport (100 Trx)
-      description: Tambah data transkrip (addCourseReport) sebanyak 100 data (I8)
-      txNumber: 100
-      rateControl:
-        type: fixed-rate
-        opts:
-          tps: 100
-      workload:
-        module: workload-module/addTranscript.js
-        arguments:
-          contract: I8
-          pt: true
-
-    - label: addCourseReport (100 Trx)
-      description: Tambah data transkrip (addCourseReport) sebanyak 100 data (I9)
-      txNumber: 100
-      rateControl:
-        type: fixed-rate
-        opts:
-          tps: 100
-      workload:
-        module: workload-module/addTranscript.js
-        arguments:
-          contract: I9
-          pt: true
 
     - label: addInternExp (100 Trx)
       description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 100 data (I0)
@@ -276,7 +157,8 @@ test:
         module: workload-module/addInternshipExperience.js
         arguments:
           contract: I0
-          pt: true
+          pt: false
+
 
     - label: addInternExp (100 Trx)
       description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 100 data (I1)
@@ -289,7 +171,8 @@ test:
         module: workload-module/addInternshipExperience.js
         arguments:
           contract: I1
-          pt: true
+          pt: false
+
 
     - label: addInternExp (100 Trx)
       description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 100 data (I2)
@@ -302,7 +185,8 @@ test:
         module: workload-module/addInternshipExperience.js
         arguments:
           contract: I2
-          pt: true
+          pt: false
+
 
     - label: addInternExp (100 Trx)
       description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 100 data (I3)
@@ -315,7 +199,8 @@ test:
         module: workload-module/addInternshipExperience.js
         arguments:
           contract: I3
-          pt: true
+          pt: false
+
 
     - label: addInternExp (100 Trx)
       description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 100 data (I4)
@@ -328,72 +213,8 @@ test:
         module: workload-module/addInternshipExperience.js
         arguments:
           contract: I4
-          pt: true
+          pt: false
 
-    - label: addInternExp (100 Trx)
-      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 100 data (I5)
-      txNumber: 100
-      rateControl:
-        type: fixed-rate
-        opts:
-          tps: 100
-      workload:
-        module: workload-module/addInternshipExperience.js
-        arguments:
-          contract: I5
-          pt: true
-
-    - label: addInternExp (100 Trx)
-      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 100 data (I6)
-      txNumber: 100
-      rateControl:
-        type: fixed-rate
-        opts:
-          tps: 100
-      workload:
-        module: workload-module/addInternshipExperience.js
-        arguments:
-          contract: I6
-          pt: true
-
-    - label: addInternExp (100 Trx)
-      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 100 data (I7)
-      txNumber: 100
-      rateControl:
-        type: fixed-rate
-        opts:
-          tps: 100
-      workload:
-        module: workload-module/addInternshipExperience.js
-        arguments:
-          contract: I7
-          pt: true
-
-    - label: addInternExp (100 Trx)
-      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 100 data (I8)
-      txNumber: 100
-      rateControl:
-        type: fixed-rate
-        opts:
-          tps: 100
-      workload:
-        module: workload-module/addInternshipExperience.js
-        arguments:
-          contract: I8
-          pt: true
-
-    - label: addInternExp (100 Trx)
-      description: Tambah data pengalaman magang (addInternshipExperience) sebanyak 100 data (I9)
-      txNumber: 100
-      rateControl:
-        type: fixed-rate
-        opts:
-          tps: 100
-      workload:
-        module: workload-module/addInternshipExperience.js
-        arguments:
-          contract: I9
-          pt: true
 
     - label: addProject (100 Trx)
       description: Tambah data proyek (addProject) sebanyak 100 data (I0)
@@ -406,7 +227,8 @@ test:
         module: workload-module/addProject.js
         arguments:
           contract: I0
-          pt: true
+          pt: false
+
 
     - label: addProject (100 Trx)
       description: Tambah data proyek (addProject) sebanyak 100 data (I1)
@@ -419,7 +241,8 @@ test:
         module: workload-module/addProject.js
         arguments:
           contract: I1
-          pt: true
+          pt: false
+
 
     - label: addProject (100 Trx)
       description: Tambah data proyek (addProject) sebanyak 100 data (I2)
@@ -432,7 +255,8 @@ test:
         module: workload-module/addProject.js
         arguments:
           contract: I2
-          pt: true
+          pt: false
+
 
     - label: addProject (100 Trx)
       description: Tambah data proyek (addProject) sebanyak 100 data (I3)
@@ -445,7 +269,8 @@ test:
         module: workload-module/addProject.js
         arguments:
           contract: I3
-          pt: true
+          pt: false
+
 
     - label: addProject (100 Trx)
       description: Tambah data proyek (addProject) sebanyak 100 data (I4)
@@ -458,72 +283,8 @@ test:
         module: workload-module/addProject.js
         arguments:
           contract: I4
-          pt: true
+          pt: false
 
-    - label: addProject (100 Trx)
-      description: Tambah data proyek (addProject) sebanyak 100 data (I5)
-      txNumber: 100
-      rateControl:
-        type: fixed-rate
-        opts:
-          tps: 100
-      workload:
-        module: workload-module/addProject.js
-        arguments:
-          contract: I5
-          pt: true
-
-    - label: addProject (100 Trx)
-      description: Tambah data proyek (addProject) sebanyak 100 data (I6)
-      txNumber: 100
-      rateControl:
-        type: fixed-rate
-        opts:
-          tps: 100
-      workload:
-        module: workload-module/addProject.js
-        arguments:
-          contract: I6
-          pt: true
-
-    - label: addProject (100 Trx)
-      description: Tambah data proyek (addProject) sebanyak 100 data (I7)
-      txNumber: 100
-      rateControl:
-        type: fixed-rate
-        opts:
-          tps: 100
-      workload:
-        module: workload-module/addProject.js
-        arguments:
-          contract: I7
-          pt: true
-
-    - label: addProject (100 Trx)
-      description: Tambah data proyek (addProject) sebanyak 100 data (I8)
-      txNumber: 100
-      rateControl:
-        type: fixed-rate
-        opts:
-          tps: 100
-      workload:
-        module: workload-module/addProject.js
-        arguments:
-          contract: I8
-          pt: true
-
-    - label: addProject (100 Trx)
-      description: Tambah data proyek (addProject) sebanyak 100 data (I9)
-      txNumber: 100
-      rateControl:
-        type: fixed-rate
-        opts:
-          tps: 100
-      workload:
-        module: workload-module/addProject.js
-        arguments:
-          contract: I9
-          pt: true
 
     - label: setStudent (100 Trx)
       description: Edit data mahasiswa (setStudent) sebanyak 100 data (I0)
@@ -536,7 +297,8 @@ test:
         module: workload-module/setStudent.js
         arguments:
           contract: I0
-          pt: true
+          pt: false
+
 
     - label: setStudent (100 Trx)
       description: Edit data mahasiswa (setStudent) sebanyak 100 data (I1)
@@ -549,7 +311,8 @@ test:
         module: workload-module/setStudent.js
         arguments:
           contract: I1
-          pt: true
+          pt: false
+
 
     - label: setStudent (100 Trx)
       description: Edit data mahasiswa (setStudent) sebanyak 100 data (I2)
@@ -562,7 +325,8 @@ test:
         module: workload-module/setStudent.js
         arguments:
           contract: I2
-          pt: true
+          pt: false
+
 
     - label: setStudent (100 Trx)
       description: Edit data mahasiswa (setStudent) sebanyak 100 data (I3)
@@ -575,7 +339,8 @@ test:
         module: workload-module/setStudent.js
         arguments:
           contract: I3
-          pt: true
+          pt: false
+
 
     - label: setStudent (100 Trx)
       description: Edit data mahasiswa (setStudent) sebanyak 100 data (I4)
@@ -588,72 +353,8 @@ test:
         module: workload-module/setStudent.js
         arguments:
           contract: I4
-          pt: true
+          pt: false
 
-    - label: setStudent (100 Trx)
-      description: Edit data mahasiswa (setStudent) sebanyak 100 data (I5)
-      txNumber: 100
-      rateControl:
-        type: fixed-rate
-        opts:
-          tps: 100
-      workload:
-        module: workload-module/setStudent.js
-        arguments:
-          contract: I5
-          pt: true
-
-    - label: setStudent (100 Trx)
-      description: Edit data mahasiswa (setStudent) sebanyak 100 data (I6)
-      txNumber: 100
-      rateControl:
-        type: fixed-rate
-        opts:
-          tps: 100
-      workload:
-        module: workload-module/setStudent.js
-        arguments:
-          contract: I6
-          pt: true
-
-    - label: setStudent (100 Trx)
-      description: Edit data mahasiswa (setStudent) sebanyak 100 data (I7)
-      txNumber: 100
-      rateControl:
-        type: fixed-rate
-        opts:
-          tps: 100
-      workload:
-        module: workload-module/setStudent.js
-        arguments:
-          contract: I7
-          pt: true
-
-    - label: setStudent (100 Trx)
-      description: Edit data mahasiswa (setStudent) sebanyak 100 data (I8)
-      txNumber: 100
-      rateControl:
-        type: fixed-rate
-        opts:
-          tps: 100
-      workload:
-        module: workload-module/setStudent.js
-        arguments:
-          contract: I8
-          pt: true
-
-    - label: setStudent (100 Trx)
-      description: Edit data mahasiswa (setStudent) sebanyak 100 data (I9)
-      txNumber: 100
-      rateControl:
-        type: fixed-rate
-        opts:
-          tps: 100
-      workload:
-        module: workload-module/setStudent.js
-        arguments:
-          contract: I9
-          pt: true
 
     - label: setCourseReport (100 Trx)
       description: Edit data transkrip (setCourseReport) sebanyak 100 data (I0)
@@ -666,7 +367,8 @@ test:
         module: workload-module/setTranscript.js
         arguments:
           contract: I0
-          pt: true
+          pt: false
+
 
     - label: setCourseReport (100 Trx)
       description: Edit data transkrip (setCourseReport) sebanyak 100 data (I1)
@@ -679,7 +381,8 @@ test:
         module: workload-module/setTranscript.js
         arguments:
           contract: I1
-          pt: true
+          pt: false
+
 
     - label: setCourseReport (100 Trx)
       description: Edit data transkrip (setCourseReport) sebanyak 100 data (I2)
@@ -692,7 +395,8 @@ test:
         module: workload-module/setTranscript.js
         arguments:
           contract: I2
-          pt: true
+          pt: false
+
 
     - label: setCourseReport (100 Trx)
       description: Edit data transkrip (setCourseReport) sebanyak 100 data (I3)
@@ -705,7 +409,8 @@ test:
         module: workload-module/setTranscript.js
         arguments:
           contract: I3
-          pt: true
+          pt: false
+
 
     - label: setCourseReport (100 Trx)
       description: Edit data transkrip (setCourseReport) sebanyak 100 data (I4)
@@ -718,72 +423,8 @@ test:
         module: workload-module/setTranscript.js
         arguments:
           contract: I4
-          pt: true
+          pt: false
 
-    - label: setCourseReport (100 Trx)
-      description: Edit data transkrip (setCourseReport) sebanyak 100 data (I5)
-      txNumber: 100
-      rateControl:
-        type: fixed-rate
-        opts:
-          tps: 100
-      workload:
-        module: workload-module/setTranscript.js
-        arguments:
-          contract: I5
-          pt: true
-
-    - label: setCourseReport (100 Trx)
-      description: Edit data transkrip (setCourseReport) sebanyak 100 data (I6)
-      txNumber: 100
-      rateControl:
-        type: fixed-rate
-        opts:
-          tps: 100
-      workload:
-        module: workload-module/setTranscript.js
-        arguments:
-          contract: I6
-          pt: true
-
-    - label: setCourseReport (100 Trx)
-      description: Edit data transkrip (setCourseReport) sebanyak 100 data (I7)
-      txNumber: 100
-      rateControl:
-        type: fixed-rate
-        opts:
-          tps: 100
-      workload:
-        module: workload-module/setTranscript.js
-        arguments:
-          contract: I7
-          pt: true
-
-    - label: setCourseReport (100 Trx)
-      description: Edit data transkrip (setCourseReport) sebanyak 100 data (I8)
-      txNumber: 100
-      rateControl:
-        type: fixed-rate
-        opts:
-          tps: 100
-      workload:
-        module: workload-module/setTranscript.js
-        arguments:
-          contract: I8
-          pt: true
-
-    - label: setCourseReport (100 Trx)
-      description: Edit data transkrip (setCourseReport) sebanyak 100 data (I9)
-      txNumber: 100
-      rateControl:
-        type: fixed-rate
-        opts:
-          tps: 100
-      workload:
-        module: workload-module/setTranscript.js
-        arguments:
-          contract: I9
-          pt: true
 
     - label: setInternExp (100 Trx)
       description: Edit data pengalaman magang (setInternshipExperience) sebanyak 100 data (I0)
@@ -796,7 +437,8 @@ test:
         module: workload-module/setInternshipExperience.js
         arguments:
           contract: I0
-          pt: true
+          pt: false
+
 
     - label: setInternExp (100 Trx)
       description: Edit data pengalaman magang (setInternshipExperience) sebanyak 100 data (I1)
@@ -809,7 +451,8 @@ test:
         module: workload-module/setInternshipExperience.js
         arguments:
           contract: I1
-          pt: true
+          pt: false
+
 
     - label: setInternExp (100 Trx)
       description: Edit data pengalaman magang (setInternshipExperience) sebanyak 100 data (I2)
@@ -822,98 +465,8 @@ test:
         module: workload-module/setInternshipExperience.js
         arguments:
           contract: I2
-          pt: true
+          pt: false
 
-    - label: setInternExp (100 Trx)
-      description: Edit data pengalaman magang (setInternshipExperience) sebanyak 100 data (I3)
-      txNumber: 100
-      rateControl:
-        type: fixed-rate
-        opts:
-          tps: 100
-      workload:
-        module: workload-module/setInternshipExperience.js
-        arguments:
-          contract: I3
-          pt: true
-
-    - label: setInternExp (100 Trx)
-      description: Edit data pengalaman magang (setInternshipExperience) sebanyak 100 data (I4)
-      txNumber: 100
-      rateControl:
-        type: fixed-rate
-        opts:
-          tps: 100
-      workload:
-        module: workload-module/setInternshipExperience.js
-        arguments:
-          contract: I4
-          pt: true
-
-    - label: setInternExp (100 Trx)
-      description: Edit data pengalaman magang (setInternshipExperience) sebanyak 100 data (I5)
-      txNumber: 100
-      rateControl:
-        type: fixed-rate
-        opts:
-          tps: 100
-      workload:
-        module: workload-module/setInternshipExperience.js
-        arguments:
-          contract: I5
-          pt: true
-
-    - label: setInternExp (100 Trx)
-      description: Edit data pengalaman magang (setInternshipExperience) sebanyak 100 data (I6)
-      txNumber: 100
-      rateControl:
-        type: fixed-rate
-        opts:
-          tps: 100
-      workload:
-        module: workload-module/setInternshipExperience.js
-        arguments:
-          contract: I6
-          pt: true
-
-    - label: setInternExp (100 Trx)
-      description: Edit data pengalaman magang (setInternshipExperience) sebanyak 100 data (I7)
-      txNumber: 100
-      rateControl:
-        type: fixed-rate
-        opts:
-          tps: 100
-      workload:
-        module: workload-module/setInternshipExperience.js
-        arguments:
-          contract: I7
-          pt: true
-
-    - label: setInternExp (100 Trx)
-      description: Edit data pengalaman magang (setInternshipExperience) sebanyak 100 data (I8)
-      txNumber: 100
-      rateControl:
-        type: fixed-rate
-        opts:
-          tps: 100
-      workload:
-        module: workload-module/setInternshipExperience.js
-        arguments:
-          contract: I8
-          pt: true
-
-    - label: setInternExp (100 Trx)
-      description: Edit data pengalaman magang (setInternshipExperience) sebanyak 100 data (I9)
-      txNumber: 100
-      rateControl:
-        type: fixed-rate
-        opts:
-          tps: 100
-      workload:
-        module: workload-module/setInternshipExperience.js
-        arguments:
-          contract: I9
-          pt: true
 
     - label: setProject (100 Trx)
       description: Edit data proyek (setProject) sebanyak 100 data (I0)
@@ -926,7 +479,8 @@ test:
         module: workload-module/setProject.js
         arguments:
           contract: I0
-          pt: true
+          pt: false
+
 
     - label: setProject (100 Trx)
       description: Edit data proyek (setProject) sebanyak 100 data (I1)
@@ -939,7 +493,8 @@ test:
         module: workload-module/setProject.js
         arguments:
           contract: I1
-          pt: true
+          pt: false
+
 
     - label: setProject (100 Trx)
       description: Edit data proyek (setProject) sebanyak 100 data (I2)
@@ -952,7 +507,8 @@ test:
         module: workload-module/setProject.js
         arguments:
           contract: I2
-          pt: true
+          pt: false
+
 
     - label: setProject (100 Trx)
       description: Edit data proyek (setProject) sebanyak 100 data (I3)
@@ -965,7 +521,8 @@ test:
         module: workload-module/setProject.js
         arguments:
           contract: I3
-          pt: true
+          pt: false
+
 
     - label: setProject (100 Trx)
       description: Edit data proyek (setProject) sebanyak 100 data (I4)
@@ -978,72 +535,8 @@ test:
         module: workload-module/setProject.js
         arguments:
           contract: I4
-          pt: true
+          pt: false
 
-    - label: setProject (100 Trx)
-      description: Edit data proyek (setProject) sebanyak 100 data (I5)
-      txNumber: 100
-      rateControl:
-        type: fixed-rate
-        opts:
-          tps: 100
-      workload:
-        module: workload-module/setProject.js
-        arguments:
-          contract: I5
-          pt: true
-
-    - label: setProject (100 Trx)
-      description: Edit data proyek (setProject) sebanyak 100 data (I6)
-      txNumber: 100
-      rateControl:
-        type: fixed-rate
-        opts:
-          tps: 100
-      workload:
-        module: workload-module/setProject.js
-        arguments:
-          contract: I6
-          pt: true
-
-    - label: setProject (100 Trx)
-      description: Edit data proyek (setProject) sebanyak 100 data (I7)
-      txNumber: 100
-      rateControl:
-        type: fixed-rate
-        opts:
-          tps: 100
-      workload:
-        module: workload-module/setProject.js
-        arguments:
-          contract: I7
-          pt: true
-
-    - label: setProject (100 Trx)
-      description: Edit data proyek (setProject) sebanyak 100 data (I8)
-      txNumber: 100
-      rateControl:
-        type: fixed-rate
-        opts:
-          tps: 100
-      workload:
-        module: workload-module/setProject.js
-        arguments:
-          contract: I8
-          pt: true
-
-    - label: setProject (100 Trx)
-      description: Edit data proyek (setProject) sebanyak 100 data (I9)
-      txNumber: 100
-      rateControl:
-        type: fixed-rate
-        opts:
-          tps: 100
-      workload:
-        module: workload-module/setProject.js
-        arguments:
-          contract: I9
-          pt: true
 
     - label: getSAR (100 Trx)
       description: Ambil data mahasiswa untuk admin (getStudentAcademicReputation) sebanyak 100 data (I0)
@@ -1056,7 +549,8 @@ test:
         module: workload-module/getStudentForAdmin.js
         arguments:
           contract: I0
-          pt: true
+          pt: false
+
 
     - label: getSAR (100 Trx)
       description: Ambil data mahasiswa untuk admin (getStudentAcademicReputation) sebanyak 100 data (I1)
@@ -1069,7 +563,8 @@ test:
         module: workload-module/getStudentForAdmin.js
         arguments:
           contract: I1
-          pt: true
+          pt: false
+
 
     - label: getSAR (100 Trx)
       description: Ambil data mahasiswa untuk admin (getStudentAcademicReputation) sebanyak 100 data (I2)
@@ -1082,7 +577,8 @@ test:
         module: workload-module/getStudentForAdmin.js
         arguments:
           contract: I2
-          pt: true
+          pt: false
+
 
     - label: getSAR (100 Trx)
       description: Ambil data mahasiswa untuk admin (getStudentAcademicReputation) sebanyak 100 data (I3)
@@ -1095,7 +591,8 @@ test:
         module: workload-module/getStudentForAdmin.js
         arguments:
           contract: I3
-          pt: true
+          pt: false
+
 
     - label: getSAR (100 Trx)
       description: Ambil data mahasiswa untuk admin (getStudentAcademicReputation) sebanyak 100 data (I4)
@@ -1108,72 +605,8 @@ test:
         module: workload-module/getStudentForAdmin.js
         arguments:
           contract: I4
-          pt: true
+          pt: false
 
-    - label: getSAR (100 Trx)
-      description: Ambil data mahasiswa untuk admin (getStudentAcademicReputation) sebanyak 100 data (I5)
-      txNumber: 100
-      rateControl:
-        type: fixed-rate
-        opts:
-          tps: 100
-      workload:
-        module: workload-module/getStudentForAdmin.js
-        arguments:
-          contract: I5
-          pt: true
-
-    - label: getSAR (100 Trx)
-      description: Ambil data mahasiswa untuk admin (getStudentAcademicReputation) sebanyak 100 data (I6)
-      txNumber: 100
-      rateControl:
-        type: fixed-rate
-        opts:
-          tps: 100
-      workload:
-        module: workload-module/getStudentForAdmin.js
-        arguments:
-          contract: I6
-          pt: true
-
-    - label: getSAR (100 Trx)
-      description: Ambil data mahasiswa untuk admin (getStudentAcademicReputation) sebanyak 100 data (I7)
-      txNumber: 100
-      rateControl:
-        type: fixed-rate
-        opts:
-          tps: 100
-      workload:
-        module: workload-module/getStudentForAdmin.js
-        arguments:
-          contract: I7
-          pt: true
-
-    - label: getSAR (100 Trx)
-      description: Ambil data mahasiswa untuk admin (getStudentAcademicReputation) sebanyak 100 data (I8)
-      txNumber: 100
-      rateControl:
-        type: fixed-rate
-        opts:
-          tps: 100
-      workload:
-        module: workload-module/getStudentForAdmin.js
-        arguments:
-          contract: I8
-          pt: true
-
-    - label: getSAR (100 Trx)
-      description: Ambil data mahasiswa untuk admin (getStudentAcademicReputation) sebanyak 100 data (I9)
-      txNumber: 100
-      rateControl:
-        type: fixed-rate
-        opts:
-          tps: 100
-      workload:
-        module: workload-module/getStudentForAdmin.js
-        arguments:
-          contract: I9
-          pt: true
 
     - label: getSARForPublic (100 Trx)
       description: Ambil data mahasiswa untuk publik (getStudentAcademicReputation) sebanyak 100 data (I0)
@@ -1186,7 +619,8 @@ test:
         module: workload-module/getStudentForPublic.js
         arguments:
           contract: I0
-          pt: true
+          pt: false
+
 
     - label: getSARForPublic (100 Trx)
       description: Ambil data mahasiswa untuk publik (getStudentAcademicReputation) sebanyak 100 data (I1)
@@ -1199,7 +633,8 @@ test:
         module: workload-module/getStudentForPublic.js
         arguments:
           contract: I1
-          pt: true
+          pt: false
+
 
     - label: getSARForPublic (100 Trx)
       description: Ambil data mahasiswa untuk publik (getStudentAcademicReputation) sebanyak 100 data (I2)
@@ -1212,7 +647,8 @@ test:
         module: workload-module/getStudentForPublic.js
         arguments:
           contract: I2
-          pt: true
+          pt: false
+
 
     - label: getSARForPublic (100 Trx)
       description: Ambil data mahasiswa untuk publik (getStudentAcademicReputation) sebanyak 100 data (I3)
@@ -1225,7 +661,8 @@ test:
         module: workload-module/getStudentForPublic.js
         arguments:
           contract: I3
-          pt: true
+          pt: false
+
 
     - label: getSARForPublic (100 Trx)
       description: Ambil data mahasiswa untuk publik (getStudentAcademicReputation) sebanyak 100 data (I4)
@@ -1238,69 +675,5 @@ test:
         module: workload-module/getStudentForPublic.js
         arguments:
           contract: I4
-          pt: true
+          pt: false
 
-    - label: getSARForPublic (100 Trx)
-      description: Ambil data mahasiswa untuk publik (getStudentAcademicReputation) sebanyak 100 data (I5)
-      txNumber: 100
-      rateControl:
-        type: fixed-rate
-        opts:
-          tps: 100
-      workload:
-        module: workload-module/getStudentForPublic.js
-        arguments:
-          contract: I5
-          pt: true
-
-    - label: getSARForPublic (100 Trx)
-      description: Ambil data mahasiswa untuk publik (getStudentAcademicReputation) sebanyak 100 data (I6)
-      txNumber: 100
-      rateControl:
-        type: fixed-rate
-        opts:
-          tps: 100
-      workload:
-        module: workload-module/getStudentForPublic.js
-        arguments:
-          contract: I6
-          pt: true
-
-    - label: getSARForPublic (100 Trx)
-      description: Ambil data mahasiswa untuk publik (getStudentAcademicReputation) sebanyak 100 data (I7)
-      txNumber: 100
-      rateControl:
-        type: fixed-rate
-        opts:
-          tps: 100
-      workload:
-        module: workload-module/getStudentForPublic.js
-        arguments:
-          contract: I7
-          pt: true
-
-    - label: getSARForPublic (100 Trx)
-      description: Ambil data mahasiswa untuk publik (getStudentAcademicReputation) sebanyak 100 data (I8)
-      txNumber: 100
-      rateControl:
-        type: fixed-rate
-        opts:
-          tps: 100
-      workload:
-        module: workload-module/getStudentForPublic.js
-        arguments:
-          contract: I8
-          pt: true
-
-    - label: getSARForPublic (100 Trx)
-      description: Ambil data mahasiswa untuk publik (getStudentAcademicReputation) sebanyak 100 data (I9)
-      txNumber: 100
-      rateControl:
-        type: fixed-rate
-        opts:
-          tps: 100
-      workload:
-        module: workload-module/getStudentForPublic.js
-        arguments:
-          contract: I9
-          pt: true

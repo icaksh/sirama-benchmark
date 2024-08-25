@@ -161,16 +161,16 @@ function generate_st(max, round) {
             projectsSet.push(projectSet)
             studentsSet.push(studentSet)
         }
-        for(let k= 0; k < 10; k++){
-        storeGet.push(studentsQuery)
-        store.push(students)
-        courseReportsData.push(courseReports)
-        internshipExperiencesData.push(internshipExperiences)
-        projectsData.push(projects)
-        storeSet.push(studentsSet)
-        courseReportsDataSet.push(courseReportsSet)
-        internshipExperiencesDataSet.push(internshipExperiencesSet)
-        projectsDataSet.push(projectsSet)
+        for(let k= 0; k < 5; k++){
+            storeGet.push(studentsQuery)
+            store.push(students)
+            courseReportsData.push(courseReports)
+            internshipExperiencesData.push(internshipExperiences)
+            projectsData.push(projects)
+            storeSet.push(studentsSet)
+            courseReportsDataSet.push(courseReportsSet)
+            internshipExperiencesDataSet.push(internshipExperiencesSet)
+            projectsDataSet.push(projectsSet)
         }
     }
 
